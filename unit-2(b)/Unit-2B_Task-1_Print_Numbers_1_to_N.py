@@ -1,0 +1,18 @@
+#Write a python program to print numbers from 1 to N
+
+# 1. using for loop
+
+n = int(input("Enter N: "))
+for i in range(1, n + 1):
+    print(i)
+
+# 2 using while loop 
+n = int(input("Enter N: "))
+i = 1
+while i <= n:
+    print(i)
+    i += 1
+
+
+
+
