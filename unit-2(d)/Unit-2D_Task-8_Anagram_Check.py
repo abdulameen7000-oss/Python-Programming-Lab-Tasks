@@ -1,0 +1,9 @@
+#Implement a Python program to check whether two strings are anagrams
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+if sorted(s1.lower()) == sorted(s2.lower()):
+    print("Anagrams")
+else:
+    print("Not Anagrams")
